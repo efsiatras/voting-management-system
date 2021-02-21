@@ -36,11 +36,7 @@ List of available commands:
 
 - Each **Record** is represented by a simple struct of its data.
 
-- **Election** is implemented using a struct.
-
-  Having implemented struct Election offers the ability to extend the program easily to multiple elections at the same time.
-  
-  eg. An array of pointers to Elections.
+- **Election** is implemented using a struct. Having implemented struct Election offers the ability to extend the program easily to multiple elections at the same time by using, for example, an array of pointers to Elections.
 
 ## Implementation / Interface
 - **Bloom Filter**: bf/bf.c, bf/bf.h
