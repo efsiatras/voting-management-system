@@ -1,6 +1,7 @@
 # Voting Management System
 A system managing the voting process of an election using a Bloom Filter, a Red-Black Tree and a Linked List.
-![voting-management-system](https://siatras.dev/img/voting-management-system.jpg "voting-management-system")
+
+![A visualization of the structures used in the voting management system](https://siatras.dev/img/voting-management-system.jpg)
 ## Compilation
 `$ make clean`
 
