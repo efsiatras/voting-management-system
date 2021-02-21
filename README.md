@@ -43,19 +43,19 @@ List of available commands:
   eg. An array of pointers to Elections.
 
 ## Implementation / Interface
-- bf/bf.c, bf/bf.h: Bloom Filter
+- **Bloom Filter**: bf/bf.c, bf/bf.h
 
-- postcodelist/recordlist.c, postcodelist/recordlist.h: Linked list of pointers to records of the same postal code.
-- postcodelist/postcodelist.c, postcodelist/postcodelist.h: Linked list of recordlists to compose the Postcode Struct.
+- **Linked list of pointers to records of the same postal code**: postcodelist/recordlist.c, postcodelist/recordlist.h
+- **Linked list of recordlists to compose the Postcode Struct**: postcodelist/postcodelist.c, postcodelist/postcodelist.h
 
-- rbt/rbt.c, rbt/rbt.h: Red-Black Tree implemented using Binary Search Tree as basis.
+- **Red-Black Tree implemented using Binary Search Tree as basis**: rbt/rbt.c, rbt/rbt.h
 
-- records/record.c, records/record.h: Struct to define a record.
+- **Struct to define a record**: records/record.c, records/record.h
 
-- utils/array.c, utils/array.h: Utilities / functions used about arrays.
-- utils/file.c, utils/file.h: Utilities / functions used about arrays.
-- utils/primenumber.c, utils/primenumber.h: Utilities / functions used about prime numbers.
+- **Utilities/functions used for arrays**: utils/array.c, utils/array.h
+- **Utilities/functions used for arrays**: utils/file.c, utils/file.h
+- **Utilities/functions used for prime numbers**: utils/primenumber.c, utils/primenumber.h
 
-- election.c, election.h: Struct to define an election.
+- **Struct to define an election**: election.c, election.h
 
-- runelection.c: Main function and some other helpful functions.
+- **Main function and some other helpful functions**: runelection.c
