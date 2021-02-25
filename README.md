@@ -28,7 +28,7 @@ List of available commands:
 - exit
 
 ## Design Decisions
-- **Bloom Filter** is implemented using array of bits.
+- **Bloom Filter** is implemented using array of bits. It **resizes* when the filter’s **fill ratio reaches the maximum acceptable value**.
 
 - **Postcode Struct** is implemented using a linked list of linked lists of pointer to records.
 
